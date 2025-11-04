@@ -1,0 +1,35 @@
+Parâmetros calculados: n_itens=4 → TAM_POP=50, MAX_HISTORICO=50, nthread=2
+
+=== TESTE DE DESEMPENHO ===
+
+--- EXECUÇÃO SEQUENCIAL ---
+Threads: 1
+Tempo total: 0.003652 s
+Gerações: 50
+Melhor fitness: 120
+Valor total: 120
+Peso total: 15
+Capacidade da mochila: 15
+Itens selecionados:
+  Item 1: Peso=5, Valor=40
+  Item 2: Peso=5, Valor=30
+  Item 3: Peso=5, Valor=50
+
+--- EXECUÇÃO PARALELA ---
+Threads: 2
+Tempo total: 0.004862 s
+Gerações: 50
+Melhor fitness: 120
+Valor total: 120
+Peso total: 15
+Capacidade da mochila: 15
+Itens selecionados:
+  Item 1: Peso=5, Valor=40
+  Item 2: Peso=5, Valor=30
+  Item 3: Peso=5, Valor=50
+
+=== RESUMO FINAL ===
+Tempo sequencial: 0.003652 s
+Tempo paralelo: 0.004862 s
+Aceleracao: 0.751
+Eficiencia: 37.56%

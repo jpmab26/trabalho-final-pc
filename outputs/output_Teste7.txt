@@ -1,0 +1,244 @@
+Parâmetros calculados: n_itens=500 → TAM_POP=5000, MAX_HISTORICO=300, nthread=2
+
+=== TESTE DE DESEMPENHO ===
+
+--- EXECUÇÃO SEQUENCIAL ---
+Threads: 1
+Tempo total: 49.796157 s
+Gerações: 300
+Melhor fitness: 45522
+Valor total: 45522
+Peso total: 4992
+Capacidade da mochila: 5000
+Itens selecionados:
+  Item 7: Peso=26, Valor=498
+  Item 8: Peso=13, Valor=541
+  Item 10: Peso=35, Valor=242
+  Item 18: Peso=49, Valor=402
+  Item 19: Peso=38, Valor=398
+  Item 22: Peso=71, Valor=511
+  Item 23: Peso=39, Valor=396
+  Item 24: Peso=69, Valor=342
+  Item 29: Peso=26, Valor=586
+  Item 36: Peso=18, Valor=359
+  Item 44: Peso=105, Valor=501
+  Item 48: Peso=46, Valor=322
+  Item 56: Peso=24, Valor=108
+  Item 66: Peso=15, Valor=579
+  Item 68: Peso=49, Valor=551
+  Item 69: Peso=12, Valor=417
+  Item 74: Peso=96, Valor=458
+  Item 77: Peso=53, Valor=445
+  Item 80: Peso=56, Valor=410
+  Item 81: Peso=17, Valor=498
+  Item 84: Peso=39, Valor=389
+  Item 86: Peso=54, Valor=471
+  Item 89: Peso=16, Valor=114
+  Item 93: Peso=21, Valor=525
+  Item 97: Peso=39, Valor=524
+  Item 98: Peso=31, Valor=380
+  Item 106: Peso=28, Valor=286
+  Item 119: Peso=71, Valor=432
+  Item 125: Peso=23, Valor=591
+  Item 131: Peso=40, Valor=358
+  Item 143: Peso=43, Valor=569
+  Item 147: Peso=72, Valor=409
+  Item 149: Peso=10, Valor=62
+  Item 159: Peso=78, Valor=448
+  Item 161: Peso=63, Valor=399
+  Item 162: Peso=30, Valor=323
+  Item 165: Peso=49, Valor=402
+  Item 170: Peso=12, Valor=562
+  Item 171: Peso=25, Valor=362
+  Item 173: Peso=61, Valor=454
+  Item 175: Peso=23, Valor=511
+  Item 176: Peso=19, Valor=450
+  Item 180: Peso=70, Valor=471
+  Item 181: Peso=64, Valor=312
+  Item 185: Peso=13, Valor=86
+  Item 188: Peso=16, Valor=180
+  Item 195: Peso=52, Valor=382
+  Item 200: Peso=34, Valor=397
+  Item 207: Peso=53, Valor=515
+  Item 211: Peso=51, Valor=344
+  Item 214: Peso=32, Valor=555
+  Item 235: Peso=29, Valor=594
+  Item 242: Peso=94, Valor=546
+  Item 251: Peso=23, Valor=339
+  Item 253: Peso=38, Valor=212
+  Item 256: Peso=65, Valor=451
+  Item 257: Peso=17, Valor=431
+  Item 260: Peso=71, Valor=508
+  Item 264: Peso=36, Valor=438
+  Item 268: Peso=13, Valor=595
+  Item 269: Peso=30, Valor=202
+  Item 275: Peso=13, Valor=389
+  Item 278: Peso=38, Valor=186
+  Item 286: Peso=71, Valor=478
+  Item 294: Peso=76, Valor=454
+  Item 297: Peso=49, Valor=410
+  Item 300: Peso=58, Valor=519
+  Item 304: Peso=71, Valor=358
+  Item 310: Peso=98, Valor=566
+  Item 315: Peso=34, Valor=379
+  Item 320: Peso=79, Valor=468
+  Item 322: Peso=30, Valor=351
+  Item 326: Peso=92, Valor=441
+  Item 327: Peso=20, Valor=539
+  Item 332: Peso=54, Valor=432
+  Item 333: Peso=79, Valor=463
+  Item 335: Peso=115, Valor=543
+  Item 343: Peso=31, Valor=589
+  Item 344: Peso=60, Valor=441
+  Item 351: Peso=19, Valor=342
+  Item 357: Peso=90, Valor=449
+  Item 363: Peso=70, Valor=428
+  Item 369: Peso=13, Valor=366
+  Item 374: Peso=52, Valor=322
+  Item 382: Peso=46, Valor=569
+  Item 383: Peso=24, Valor=444
+  Item 388: Peso=67, Valor=444
+  Item 391: Peso=28, Valor=365
+  Item 393: Peso=19, Valor=307
+  Item 398: Peso=23, Valor=591
+  Item 401: Peso=107, Valor=554
+  Item 406: Peso=60, Valor=534
+  Item 418: Peso=27, Valor=444
+  Item 435: Peso=55, Valor=488
+  Item 444: Peso=49, Valor=386
+  Item 445: Peso=36, Valor=460
+  Item 449: Peso=72, Valor=490
+  Item 450: Peso=32, Valor=381
+  Item 452: Peso=96, Valor=506
+  Item 458: Peso=25, Valor=155
+  Item 462: Peso=30, Valor=552
+  Item 464: Peso=37, Valor=468
+  Item 471: Peso=34, Valor=287
+  Item 472: Peso=85, Valor=431
+  Item 474: Peso=22, Valor=242
+  Item 480: Peso=49, Valor=515
+  Item 489: Peso=73, Valor=493
+  Item 496: Peso=79, Valor=360
+
+--- EXECUÇÃO PARALELA ---
+Threads: 2
+Tempo total: 49.469777 s
+Gerações: 300
+Melhor fitness: 45434
+Valor total: 45434
+Peso total: 4999
+Capacidade da mochila: 5000
+Itens selecionados:
+  Item 7: Peso=26, Valor=498
+  Item 8: Peso=13, Valor=541
+  Item 10: Peso=35, Valor=242
+  Item 18: Peso=49, Valor=402
+  Item 19: Peso=38, Valor=398
+  Item 22: Peso=71, Valor=511
+  Item 23: Peso=39, Valor=396
+  Item 24: Peso=69, Valor=342
+  Item 27: Peso=104, Valor=486
+  Item 29: Peso=26, Valor=586
+  Item 44: Peso=105, Valor=501
+  Item 56: Peso=24, Valor=108
+  Item 60: Peso=93, Valor=576
+  Item 66: Peso=15, Valor=579
+  Item 68: Peso=49, Valor=551
+  Item 69: Peso=12, Valor=417
+  Item 74: Peso=96, Valor=458
+  Item 77: Peso=53, Valor=445
+  Item 80: Peso=56, Valor=410
+  Item 81: Peso=17, Valor=498
+  Item 84: Peso=39, Valor=389
+  Item 86: Peso=54, Valor=471
+  Item 89: Peso=16, Valor=114
+  Item 93: Peso=21, Valor=525
+  Item 97: Peso=39, Valor=524
+  Item 98: Peso=31, Valor=380
+  Item 106: Peso=28, Valor=286
+  Item 119: Peso=71, Valor=432
+  Item 125: Peso=23, Valor=591
+  Item 131: Peso=40, Valor=358
+  Item 140: Peso=84, Valor=386
+  Item 143: Peso=43, Valor=569
+  Item 147: Peso=72, Valor=409
+  Item 149: Peso=10, Valor=62
+  Item 159: Peso=78, Valor=448
+  Item 161: Peso=63, Valor=399
+  Item 162: Peso=30, Valor=323
+  Item 165: Peso=49, Valor=402
+  Item 170: Peso=12, Valor=562
+  Item 171: Peso=25, Valor=362
+  Item 173: Peso=61, Valor=454
+  Item 175: Peso=23, Valor=511
+  Item 176: Peso=19, Valor=450
+  Item 181: Peso=64, Valor=312
+  Item 185: Peso=13, Valor=86
+  Item 188: Peso=16, Valor=180
+  Item 195: Peso=52, Valor=382
+  Item 200: Peso=34, Valor=397
+  Item 207: Peso=53, Valor=515
+  Item 214: Peso=32, Valor=555
+  Item 235: Peso=29, Valor=594
+  Item 242: Peso=94, Valor=546
+  Item 251: Peso=23, Valor=339
+  Item 253: Peso=38, Valor=212
+  Item 256: Peso=65, Valor=451
+  Item 257: Peso=17, Valor=431
+  Item 260: Peso=71, Valor=508
+  Item 264: Peso=36, Valor=438
+  Item 268: Peso=13, Valor=595
+  Item 269: Peso=30, Valor=202
+  Item 274: Peso=37, Valor=540
+  Item 275: Peso=13, Valor=389
+  Item 278: Peso=38, Valor=186
+  Item 286: Peso=71, Valor=478
+  Item 294: Peso=76, Valor=454
+  Item 297: Peso=49, Valor=410
+  Item 300: Peso=58, Valor=519
+  Item 304: Peso=71, Valor=358
+  Item 310: Peso=98, Valor=566
+  Item 315: Peso=34, Valor=379
+  Item 320: Peso=79, Valor=468
+  Item 322: Peso=30, Valor=351
+  Item 326: Peso=92, Valor=441
+  Item 327: Peso=20, Valor=539
+  Item 332: Peso=54, Valor=432
+  Item 333: Peso=79, Valor=463
+  Item 343: Peso=31, Valor=589
+  Item 344: Peso=60, Valor=441
+  Item 349: Peso=41, Valor=324
+  Item 351: Peso=19, Valor=342
+  Item 357: Peso=90, Valor=449
+  Item 363: Peso=70, Valor=428
+  Item 369: Peso=13, Valor=366
+  Item 374: Peso=52, Valor=322
+  Item 382: Peso=46, Valor=569
+  Item 383: Peso=24, Valor=444
+  Item 388: Peso=67, Valor=444
+  Item 391: Peso=28, Valor=365
+  Item 393: Peso=19, Valor=307
+  Item 398: Peso=23, Valor=591
+  Item 401: Peso=107, Valor=554
+  Item 406: Peso=60, Valor=534
+  Item 418: Peso=27, Valor=444
+  Item 435: Peso=55, Valor=488
+  Item 436: Peso=49, Valor=241
+  Item 444: Peso=49, Valor=386
+  Item 445: Peso=36, Valor=460
+  Item 449: Peso=72, Valor=490
+  Item 450: Peso=32, Valor=381
+  Item 452: Peso=96, Valor=506
+  Item 458: Peso=25, Valor=155
+  Item 462: Peso=30, Valor=552
+  Item 464: Peso=37, Valor=468
+  Item 471: Peso=34, Valor=287
+  Item 472: Peso=85, Valor=431
+  Item 480: Peso=49, Valor=515
+  Item 489: Peso=73, Valor=493
+
+=== RESUMO FINAL ===
+Tempo sequencial: 49.796157 s
+Tempo paralelo: 49.469777 s
+Aceleracao: 1.007
+Eficiencia: 50.33%

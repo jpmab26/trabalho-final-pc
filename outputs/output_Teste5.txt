@@ -1,0 +1,57 @@
+Parâmetros calculados: n_itens=60 → TAM_POP=600, MAX_HISTORICO=120, nthread=2
+
+=== TESTE DE DESEMPENHO ===
+
+--- EXECUÇÃO SEQUENCIAL ---
+Threads: 1
+Tempo total: 0.222168 s
+Gerações: 120
+Melhor fitness: 2289
+Valor total: 2289
+Peso total: 498
+Capacidade da mochila: 500
+Itens selecionados:
+  Item 0: Peso=46, Valor=155
+  Item 10: Peso=39, Valor=190
+  Item 12: Peso=7, Valor=26
+  Item 22: Peso=6, Valor=49
+  Item 29: Peso=56, Valor=225
+  Item 43: Peso=48, Valor=178
+  Item 44: Peso=37, Valor=178
+  Item 45: Peso=55, Valor=228
+  Item 47: Peso=37, Valor=196
+  Item 48: Peso=10, Valor=210
+  Item 51: Peso=34, Valor=96
+  Item 52: Peso=41, Valor=240
+  Item 55: Peso=30, Valor=129
+  Item 59: Peso=52, Valor=189
+
+--- EXECUÇÃO PARALELA ---
+Threads: 2
+Tempo total: 0.211924 s
+Gerações: 120
+Melhor fitness: 2289
+Valor total: 2289
+Peso total: 498
+Capacidade da mochila: 500
+Itens selecionados:
+  Item 0: Peso=46, Valor=155
+  Item 10: Peso=39, Valor=190
+  Item 12: Peso=7, Valor=26
+  Item 22: Peso=6, Valor=49
+  Item 29: Peso=56, Valor=225
+  Item 43: Peso=48, Valor=178
+  Item 44: Peso=37, Valor=178
+  Item 45: Peso=55, Valor=228
+  Item 47: Peso=37, Valor=196
+  Item 48: Peso=10, Valor=210
+  Item 51: Peso=34, Valor=96
+  Item 52: Peso=41, Valor=240
+  Item 55: Peso=30, Valor=129
+  Item 59: Peso=52, Valor=189
+
+=== RESUMO FINAL ===
+Tempo sequencial: 0.222168 s
+Tempo paralelo: 0.211924 s
+Aceleracao: 1.048
+Eficiencia: 52.42%

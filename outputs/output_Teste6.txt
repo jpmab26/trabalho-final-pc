@@ -1,0 +1,103 @@
+Parâmetros calculados: n_itens=200 → TAM_POP=2000, MAX_HISTORICO=300, nthread=4
+
+=== TESTE DE DESEMPENHO ===
+
+--- EXECUÇÃO SEQUENCIAL ---
+Threads: 1
+Tempo total: 5.445639 s
+Gerações: 300
+Melhor fitness: 10143
+Valor total: 10143
+Peso total: 1000
+Capacidade da mochila: 1000
+Itens selecionados:
+  Item 2: Peso=14, Valor=100
+  Item 7: Peso=30, Valor=341
+  Item 12: Peso=24, Valor=345
+  Item 16: Peso=25, Valor=289
+  Item 26: Peso=41, Valor=347
+  Item 36: Peso=24, Valor=329
+  Item 38: Peso=10, Valor=159
+  Item 51: Peso=38, Valor=255
+  Item 53: Peso=16, Valor=279
+  Item 60: Peso=27, Valor=255
+  Item 63: Peso=13, Valor=386
+  Item 64: Peso=18, Valor=290
+  Item 67: Peso=18, Valor=267
+  Item 69: Peso=44, Valor=278
+  Item 79: Peso=57, Valor=400
+  Item 81: Peso=47, Valor=393
+  Item 86: Peso=10, Valor=149
+  Item 93: Peso=13, Valor=340
+  Item 104: Peso=44, Valor=380
+  Item 105: Peso=28, Valor=181
+  Item 119: Peso=11, Valor=103
+  Item 122: Peso=17, Valor=262
+  Item 130: Peso=16, Valor=321
+  Item 131: Peso=40, Valor=346
+  Item 135: Peso=38, Valor=288
+  Item 139: Peso=12, Valor=159
+  Item 147: Peso=32, Valor=355
+  Item 152: Peso=32, Valor=366
+  Item 160: Peso=32, Valor=156
+  Item 161: Peso=13, Valor=240
+  Item 163: Peso=46, Valor=293
+  Item 165: Peso=36, Valor=344
+  Item 172: Peso=36, Valor=233
+  Item 174: Peso=21, Valor=143
+  Item 180: Peso=10, Valor=213
+  Item 181: Peso=35, Valor=270
+  Item 192: Peso=32, Valor=288
+
+--- EXECUÇÃO PARALELA ---
+Threads: 4
+Tempo total: 5.127393 s
+Gerações: 300
+Melhor fitness: 10143
+Valor total: 10143
+Peso total: 1000
+Capacidade da mochila: 1000
+Itens selecionados:
+  Item 2: Peso=14, Valor=100
+  Item 7: Peso=30, Valor=341
+  Item 12: Peso=24, Valor=345
+  Item 16: Peso=25, Valor=289
+  Item 26: Peso=41, Valor=347
+  Item 36: Peso=24, Valor=329
+  Item 38: Peso=10, Valor=159
+  Item 51: Peso=38, Valor=255
+  Item 53: Peso=16, Valor=279
+  Item 60: Peso=27, Valor=255
+  Item 63: Peso=13, Valor=386
+  Item 64: Peso=18, Valor=290
+  Item 67: Peso=18, Valor=267
+  Item 69: Peso=44, Valor=278
+  Item 79: Peso=57, Valor=400
+  Item 81: Peso=47, Valor=393
+  Item 86: Peso=10, Valor=149
+  Item 93: Peso=13, Valor=340
+  Item 104: Peso=44, Valor=380
+  Item 105: Peso=28, Valor=181
+  Item 119: Peso=11, Valor=103
+  Item 122: Peso=17, Valor=262
+  Item 130: Peso=16, Valor=321
+  Item 131: Peso=40, Valor=346
+  Item 135: Peso=38, Valor=288
+  Item 139: Peso=12, Valor=159
+  Item 147: Peso=32, Valor=355
+  Item 152: Peso=32, Valor=366
+  Item 160: Peso=32, Valor=156
+  Item 161: Peso=13, Valor=240
+  Item 163: Peso=46, Valor=293
+  Item 165: Peso=36, Valor=344
+  Item 172: Peso=36, Valor=233
+  Item 174: Peso=21, Valor=143
+  Item 180: Peso=10, Valor=213
+  Item 181: Peso=35, Valor=270
+  Item 192: Peso=32, Valor=288
+
+=== RESUMO FINAL ===
+Tempo sequencial: 5.445639 s
+Tempo paralelo: 5.127393 s
+Aceleracao: 1.062
+Eficiencia: 26.55%

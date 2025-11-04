@@ -56,16 +56,16 @@ for teste in "$TESTES_DIR"/*.txt; do
     
     total=$((total + 1))
     
-    echo -n "Executando: ${YELLOW}$nome_teste${NC} ... "
+    echo -ne "Executando: ${YELLOW}$nome_teste${NC} ... "
     
     # Executar teste e capturar output e stderr
-    if timeout 60 "$EXECUTAVEL" < "$teste" > "$output_file" 2>&1; then
+    if timeout 360 "$EXECUTAVEL" < "$teste" > "$output_file" 2>&1; then
         echo -e "${GREEN}✓ SUCESSO${NC}"
         sucessos=$((sucessos + 1))
     else
         exit_code=$?
         if [ $exit_code -eq 124 ]; then
-            echo -e "${RED}✗ TIMEOUT (>60s)${NC}"
+            echo -e "${RED}✗ TIMEOUT (>360s)${NC}"
         else
             echo -e "${RED}✗ FALHOU (exit code: $exit_code)${NC}"
         fi

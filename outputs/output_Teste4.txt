@@ -1,0 +1,73 @@
+Parâmetros calculados: n_itens=80 → TAM_POP=800, MAX_HISTORICO=160, nthread=4
+
+=== TESTE DE DESEMPENHO ===
+
+--- EXECUÇÃO SEQUENCIAL ---
+Threads: 1
+Tempo total: 0.506338 s
+Gerações: 160
+Melhor fitness: 4513
+Valor total: 4513
+Peso total: 650
+Capacidade da mochila: 650
+Itens selecionados:
+  Item 3: Peso=19, Valor=182
+  Item 8: Peso=22, Valor=155
+  Item 9: Peso=32, Valor=239
+  Item 12: Peso=19, Valor=109
+  Item 17: Peso=20, Valor=173
+  Item 20: Peso=5, Valor=84
+  Item 21: Peso=35, Valor=201
+  Item 25: Peso=11, Valor=153
+  Item 32: Peso=46, Valor=223
+  Item 34: Peso=69, Valor=294
+  Item 42: Peso=15, Valor=235
+  Item 52: Peso=29, Valor=261
+  Item 59: Peso=27, Valor=96
+  Item 60: Peso=16, Valor=271
+  Item 64: Peso=9, Valor=138
+  Item 65: Peso=45, Valor=173
+  Item 69: Peso=70, Valor=262
+  Item 71: Peso=15, Valor=299
+  Item 72: Peso=59, Valor=224
+  Item 73: Peso=45, Valor=248
+  Item 78: Peso=29, Valor=203
+  Item 79: Peso=13, Valor=290
+
+--- EXECUÇÃO PARALELA ---
+Threads: 4
+Tempo total: 0.465767 s
+Gerações: 160
+Melhor fitness: 4513
+Valor total: 4513
+Peso total: 650
+Capacidade da mochila: 650
+Itens selecionados:
+  Item 3: Peso=19, Valor=182
+  Item 8: Peso=22, Valor=155
+  Item 9: Peso=32, Valor=239
+  Item 12: Peso=19, Valor=109
+  Item 14: Peso=6, Valor=35
+  Item 17: Peso=20, Valor=173
+  Item 20: Peso=5, Valor=84
+  Item 21: Peso=35, Valor=201
+  Item 25: Peso=11, Valor=153
+  Item 32: Peso=46, Valor=223
+  Item 34: Peso=69, Valor=294
+  Item 42: Peso=15, Valor=235
+  Item 52: Peso=29, Valor=261
+  Item 60: Peso=16, Valor=271
+  Item 64: Peso=9, Valor=138
+  Item 65: Peso=45, Valor=173
+  Item 69: Peso=70, Valor=262
+  Item 71: Peso=15, Valor=299
+  Item 73: Peso=45, Valor=248
+  Item 77: Peso=80, Valor=285
+  Item 78: Peso=29, Valor=203
+  Item 79: Peso=13, Valor=290
+
+=== RESUMO FINAL ===
+Tempo sequencial: 0.506338 s
+Tempo paralelo: 0.465767 s
+Aceleracao: 1.087
+Eficiencia: 27.18%
